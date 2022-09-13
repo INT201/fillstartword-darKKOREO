@@ -7,16 +7,10 @@ function fillStartWord(startWord, word) {
    if(w ===null || w === undefined) {
     return undefined
   }
-   else if(w.startsWith('first')){
+   else if(w.startsWith(stw)){
     return word
   }else{
     return stw+w
   }
-
-
-
-
-
-
 }
 module.exports = fillStartWord
